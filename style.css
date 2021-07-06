@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color:  blueviolet;
+
+}
+
+h1{
+
+    font-size: 70px;
+    
+    line-height: 40px;
+}
+
+p{
+    color: lightslategrey;
+   
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.blue-color{
+    color:blue;
+
+}
+
+section{
+    display: flex;
+}
+
+.width-reduce{
+    width: 50%;
+    padding-left: 8%;
+    padding-top: 10%;
+}
+
+.width-reduce img{
+width: 80%;
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    padding: 30px 60px;
+    color: white;
+    font-weight: 800;
+    border-radius: 50px;
+    line-height: normal;
+
+}
