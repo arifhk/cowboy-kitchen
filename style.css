@@ -23,7 +23,7 @@ p{
 
 }
 
-section{
+.flexible{
     display: flex;
     margin-bottom: 150px;
 }
@@ -32,10 +32,11 @@ section{
     width: 50%;
     padding-left: 8%;
     padding-top: 10%;
+  
 }
 
 .width-reduce img{
-width: 80%;
+width: 70%;
 
 }
 
@@ -52,7 +53,7 @@ width: 80%;
 
 h2{
 
-    font-size: 50px;
+    font-size: 30px;
     
     line-height: 40px;
 }
@@ -65,5 +66,48 @@ h2{
 .side-banner{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+
+
+}
+
+.centerr{
+    text-align: center;
+}
+
+.black-color{
+    color: black;
+    font-size: 25px;
+}
+
+.img-border{
+    border-radius: 10%;
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 10px 30px gray;
+} 
+.position{
+    text-align: center;
+    margin: 0px auto;
+    display; block;
+    font-size: 50px;
+    font-weight: 700;
+}
+pre{
+    text-align: center;
+    font-size: 35px;
+
+}
+.footer-color{
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    background-color: greenyellow;
+    border: greenyellow;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+
 
 }
