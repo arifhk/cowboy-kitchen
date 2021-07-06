@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     color:  blueviolet;
-
+    margin:0;
 }
 
 h1{
@@ -25,6 +25,7 @@ p{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .width-reduce{
@@ -46,5 +47,23 @@ width: 80%;
     font-weight: 800;
     border-radius: 50px;
     line-height: normal;
+
+}
+
+h2{
+
+    font-size: 50px;
+    
+    line-height: 40px;
+}
+
+.second-sec{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.side-banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
 
 }
